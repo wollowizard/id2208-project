@@ -26,9 +26,9 @@ public class InspectWsdlFile {
 
 
 
-        p1 = new WsdlParser("./out.wsdl");//output
+        p1 = new WsdlParser("./out2.wsdl");//output
 
-        p2 = new WsdlParser("./in.wsdl");//input
+        p2 = new WsdlParser("./in2.wsdl");//input
 
 
         matcher = new Project();
@@ -62,7 +62,7 @@ public class InspectWsdlFile {
                 outUsingTypes = true;
             }
 
-            outElements.addAll(outToUse);
+            //outElements.addAll(outToUse);
 
             for (QName q : outToUse) {
                 System.out.println("out: " + q.getLocalPart());

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ns2:WSMatching xmlns:ns2="http://www.kth.se/ict/id2208/Matching">
     <ns2:Macthing>
-        <ns2:OutputServiceName>AuthorBookpriceService</ns2:OutputServiceName>
-        <ns2:InputServiceName>AuthorBookmaxpriceService</ns2:InputServiceName>
+        <ns2:OutputServiceName>AddressDistanceCalculator</ns2:OutputServiceName>
+        <ns2:InputServiceName>Where2GetIt_Geospatial_API_Geocode</ns2:InputServiceName>
         <ns2:MacthedOperation>
-            <ns2:OutputOperationName>get_BOOK_MAXPRICE</ns2:OutputOperationName>
-            <ns2:InputOperationName>get_BOOK_PRICE</ns2:InputOperationName>
-            <ns2:OpScore>0.6</ns2:OpScore>
+            <ns2:OutputOperationName>Where2GetIt_Geospatial_API_Geocode</ns2:OutputOperationName>
+            <ns2:InputOperationName>AddressToAddressDistance</ns2:InputOperationName>
+            <ns2:OpScore>1.0</ns2:OpScore>
             <ns2:MacthedElement>
-                <ns2:OutputElement>Vertebrate</ns2:OutputElement>
-                <ns2:InputElement>Author</ns2:InputElement>
-                <ns2:Score>0.6</ns2:Score>
+                <ns2:OutputElement>Address</ns2:OutputElement>
+                <ns2:InputElement>Address</ns2:InputElement>
+                <ns2:Score>1.0</ns2:Score>
             </ns2:MacthedElement>
         </ns2:MacthedOperation>
-        <ns2:WsScore>0.6</ns2:WsScore>
+        <ns2:WsScore>1.0</ns2:WsScore>
     </ns2:Macthing>
 </ns2:WSMatching>

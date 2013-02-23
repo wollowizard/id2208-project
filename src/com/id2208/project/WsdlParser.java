@@ -7,7 +7,7 @@ package com.id2208.project;
 import com.ibm.wsdl.OperationImpl;
 import com.ibm.wsdl.PartImpl;
 import com.ibm.wsdl.PortTypeImpl;
-import com.sun.xml.internal.bind.v2.schemagen.xmlschema.Annotated;
+//import com.sun.xml.internal.bind.v2.schemagen.xmlschema.Annotated;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
